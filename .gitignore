@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ChromaDB
+*chroma_db/
+simple_chroma_db/
+api_chroma_db/
+demo_chroma_db/
+test_chroma_db/
+test_chromadb/
+*.db
+*.sqlite
+*.sqlite3
+
+# Sentence Transformers Cache
+.cache/
+sentence_transformers/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Environment variables
+.env
+.env.local
+
+# Log files
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test files
+test_output/
+*_test.html
+
+# HTML files (data files)
+*.html
+!example.html
+
+# Temp files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Model cache
+models/
+.models/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Others
+document/
+unused_script/

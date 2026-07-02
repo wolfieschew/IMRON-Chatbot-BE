@@ -1,0 +1,1 @@
+source "/e/New Volume D/Project Magang Bagas/Deployment Operation/BE_OLD/venv/Scripts/activate"

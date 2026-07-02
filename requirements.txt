@@ -1,0 +1,212 @@
+# WEB FRAMEWORK & API DEVELOPMENT
+fastapi==0.128.4
+Flask==3.1.2
+flask-cors==6.0.2
+starlette==0.52.1
+uvicorn==0.40.0
+asgiref==3.11.1
+
+# AI & MACHINE LEARNING FRAMEWORKS
+torch==2.10.0
+transformers==4.57.6
+sentence-transformers==5.2.2
+scikit-learn==1.8.0
+scipy==1.16.3
+numpy==1.26.3
+nltk==3.9.2
+tokenizers==0.22.2
+sentencepiece==0.2.1
+tiktoken==0.12.0
+regex==2026.1.15
+
+# LLAMA & LANGUAGE MODEL ECOSYSTEM
+llama-index==0.14.14
+llama-index-core==0.14.14
+llama-index-cli==0.5.3
+llama-index-workflows==2.14.2
+llama-index-llms-ollama==0.9.1
+llama-index-llms-openai==0.6.18
+llama-index-embeddings-openai==0.5.1
+llama-index-indices-managed-llama-cloud==0.9.4
+llama-index-readers-file==0.5.6
+llama-index-readers-llama-parse==0.5.1
+llama-parse==0.6.54
+llama-index-instrumentation==0.4.2
+llama-cloud==0.1.35
+llama-cloud-services==0.6.54
+
+# LANGCHAIN ECOSYSTEM
+langchain-classic==1.0.1
+langchain-core==1.2.9
+langchain-chroma==1.1.0
+langchain-ollama==1.0.1
+langchain-text-splitters==1.1.0
+langsmith==0.6.9
+
+# VECTOR DATABASES & EMBEDDINGS
+chromadb==1.4.1
+chroma-hnswlib==0.7.3
+onnxruntime==1.24.1
+
+# AI MODEL PROVIDERS & APIs
+openai==2.21.0
+ollama==0.6.1
+huggingface_hub==0.36.2
+
+# DATABASE CONNECTIONS
+mysql-connector-python==9.6.0
+PyMySQL==1.1.2
+SQLAlchemy==2.0.46
+aiosqlite==0.22.1
+
+# HTTP & NETWORKING
+httpx==0.28.1
+httpcore==1.0.9
+aiohttp==3.13.3
+requests==2.32.5
+requests-oauthlib==2.0.0
+requests-toolbelt==1.0.0
+h11==0.16.0
+httptools==0.7.1
+aiohappyeyeballs==2.6.1
+urllib3==2.6.3
+certifi==2026.1.4
+idna==3.11
+
+# DATA PROCESSING & PARSING
+pypdf==6.7.1
+striprtf==0.0.26
+beautifulsoup4==4.14.3
+defusedxml==0.7.1
+pillow==12.1.0
+pandas==2.1.4
+dirtyjson==1.0.8
+soupsieve==2.8.3
+filetype==1.2.0
+
+# SERIALIZATION & VALIDATION
+pydantic==2.12.5
+pydantic_core==2.41.5
+annotated-types==0.7.0
+orjson==3.11.7
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+jsonpatch==1.33
+jsonpointer==3.0.0
+marshmallow==3.26.2
+dataclasses-json==0.6.7
+
+# ASYNC & CONCURRENCY
+anyio==4.12.1
+nest-asyncio==1.6.0
+aiosignal==1.4.0
+frozenlist==1.8.0
+multidict==6.7.1
+propcache==0.4.1
+yarl==1.22.0
+
+# UTILITIES & HELPERS
+click==8.3.1
+typer==0.21.1
+colorama==0.4.6
+rich==14.3.2
+filelock==3.20.3
+fsspec==2026.2.0
+watchfiles==1.1.1
+platformdirs==4.9.2
+tqdm==4.67.3
+backoff==2.2.1
+attrs==25.4.0
+six==1.17.0
+overrides==7.7.0
+tenacity==8.5.0
+
+# SECURITY & AUTHENTICATION
+bcrypt==5.0.0
+oauthlib==3.3.1
+
+# CONFIGURATION & ENVIRONMENT
+python-dotenv==1.2.1
+PyYAML==6.0.3
+
+# MONITORING & TELEMETRY
+opentelemetry-api==1.39.1
+opentelemetry-sdk==1.39.1
+opentelemetry-exporter-otlp-proto-grpc==1.39.1
+opentelemetry-exporter-otlp-proto-common==1.39.1
+opentelemetry-proto==1.39.1
+opentelemetry-semantic-conventions==0.60b1
+opentelemetry-util-http==0.60b1
+posthog==5.4.0
+
+# WEB TECHNOLOGIES
+websockets==16.0
+websocket-client==1.9.0
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+itsdangerous==2.2.0
+Werkzeug==3.1.5
+blinker==1.9.0
+
+# HASHING & COMPRESSION
+xxhash==3.6.0
+mmh3==5.2.0
+zstandard==0.25.0
+pybase64==1.4.3
+
+# DATE & TIME PROCESSING
+python-dateutil==2.9.0.post0
+pytz==2025.2
+durationpy==0.10
+tzdata==2025.3
+
+# DEVELOPMENT & BUILD TOOLS
+packaging==23.2
+build==1.3.0
+pip==23.2.1
+setuptools==82.0.0
+pyproject_hooks==1.2.0
+griffe==2.0.0
+griffecli==2.0.0
+griffelib==2.0.0
+typing_extensions==4.15.0
+mypy_extensions==1.1.0
+typing-inspect==0.9.0
+typing-inspection==0.4.2
+annotated-doc==0.0.4
+markdown-it-py==4.0.0
+mdurl==0.1.2
+Pygments==2.19.2
+
+# SYSTEM & INFRASTRUCTURE
+kubernetes==35.0.0
+pulsar-client==3.10.0
+grpcio==1.78.0
+protobuf==6.33.5
+googleapis-common-protos==1.72.0
+psutil==5.9.5
+distro==1.9.0
+shellingham==1.5.4
+greenlet==3.3.1
+wrapt==1.17.3
+
+# COMPATIBILITY & METADATA
+importlib_metadata==8.7.1
+importlib_resources==6.5.2
+zipp==3.23.0
+referencing==0.37.0
+rpds-py==0.30.0
+Deprecated==1.2.18
+safetensors==0.7.0
+banks==2.4.1
+sympy==1.14.0
+mpmath==1.3.0
+flatbuffers==25.12.19
+networkx==3.6.1
+charset-normalizer==3.4.4
+sniffio==1.3.1
+uuid_utils==0.14.0
+PyPika==0.51.1
+threadpoolctl==3.6.0
+jiter==0.13.0
+joblib==1.5.3
